@@ -1,0 +1,6 @@
+Handy, and helps you reuse your code, but it's hard to read.
+
+sys.path is global -- you can change it in some distant module,
+but the change persists to other files.
+
+Your reader will see "from hypertext import ...", but from that can't know whether it's a third-party package off of PyPI or a local file you hacked in.

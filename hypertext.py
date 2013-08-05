@@ -3,7 +3,7 @@ import urllib2
 
 
 def request(method, url, data, headers=None):
-    req = urllib2.Request(url, data, headers)
+    req = urllib2.Request(url, data, headers or {})
     req.get_method = lambda: method
 
     res = urllib2.urlopen(req)
