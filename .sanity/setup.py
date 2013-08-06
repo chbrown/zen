@@ -9,6 +9,8 @@ setup(
     # url='https://github.com/chbrown/zen',
     packages=['styling'],
     install_requires=[
+        # 'requests',
+        # 'sqlalchemy==0.7',
     ],
     entry_points={
         'console_scripts': [
